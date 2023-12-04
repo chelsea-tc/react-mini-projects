@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-export const Meteors = ({ number }: { number?: nmumber }) => {
+export const Meteors = ({ number }: { number?: number }) => {
   const meteors = new Array(number || 20).fill(true);
   return (
     <>
